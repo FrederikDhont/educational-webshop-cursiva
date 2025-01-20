@@ -140,9 +140,13 @@ a.btn-secondary,
   text-decoration: unset;
 }
 
+.b-card p {
+  color: var(--color-grey);
+}
+
 .b-card > a:hover h3 {
   text-decoration: underline;
-  text-underline-offset: var(--space-xxs);
+  text-underline-offset: 0.25rem;
 }
 
 /* TABLE */
