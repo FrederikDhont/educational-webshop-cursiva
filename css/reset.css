@@ -1,0 +1,94 @@
+/* This CSS reset uses a simplified and modified version of Andy Bell’s (more) Modern CSS Reset.
+>> Read more: https://piccalil.li/blog/a-more-modern-css-reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Enable browser-native elements (like form controls and scrollbars) to automatically adjust between light and dark mode based on user system settings */
+html {
+  color-scheme: dark light;
+}
+
+/* Set core body default */
+body {
+  min-height: 100vh;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* Paragraphs and list items */
+p,
+li,
+figcaption {
+  text-wrap: pretty; /* Currently not supported in Firefox & Safari */
+}
+
+li {
+  list-style-position: inside;
+}
+
+ul[class] li,
+nav > ul > li {
+  list-style: none;
+}
+
+/* Anchors */
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* Apply smooth scrolling */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

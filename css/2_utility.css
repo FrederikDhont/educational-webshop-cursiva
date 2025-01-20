@@ -1,0 +1,334 @@
+/*
+This file contains reusable, single-purpose styles (utilities) that do one job and do that job well.
+E.g. spacing, text alignment, color.
+>> Read more: https://cube.fyi/utility.html
+*/
+
+/** TYPOGRAPHY **/
+.u-ff-heading {
+  font-family: var(--ff-heading);
+}
+.u-ff-tagline {
+  font-family: var(--ff-tagline);
+}
+
+.u-fs-step--2 {
+  font-size: var(--fs-step--2);
+}
+.u-fs-step--1 {
+  font-size: var(--fs-step--1);
+}
+.u-fs-step-0 {
+  font-size: var(--fs-step-0);
+}
+.u-fs-step-1 {
+  font-size: var(--fs-step-1);
+}
+.u-fs-step-2 {
+  font-size: var(--fs-step-2);
+}
+.u-fs-step-3 {
+  font-size: var(--fs-step-3);
+}
+.u-fs-step-4 {
+  font-size: var(--fs-step-4);
+}
+.u-fs-step-5 {
+  font-size: var(--fs-step-5);
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-line-height-s {
+  line-height: var(--lh-heading);
+}
+.u-line-height-m {
+  line-height: var(--lh-body);
+}
+
+/** COLOR **/
+.u-color-primary {
+  color: var(--color-primary);
+}
+.u-color-secondary {
+  color: var(--color-secondary);
+}
+.u-color-lightgrey {
+  color: var(--color-grey-light);
+}
+.u-color-grey {
+  color: var(--color-grey);
+}
+
+/* Primary background classes */
+.u-bg-primary {
+  background-color: var(--color-primary);
+}
+.u-bg-primary-8 {
+  background-color: var(--color-primary-step-8);
+}
+.u-bg-primary-7 {
+  background-color: var(--color-primary-step-7);
+}
+.u-bg-primary-6 {
+  background-color: var(--color-primary-step-6);
+}
+.u-bg-primary-5 {
+  background-color: var(--color-primary-step-5);
+}
+.u-bg-primary-4 {
+  background-color: var(--color-primary-step-4);
+}
+.u-bg-primary-3 {
+  background-color: var(--color-primary-step-3);
+}
+.u-bg-primary-2 {
+  background-color: var(--color-primary-step-2);
+}
+.u-bg-primary-1 {
+  background-color: var(--color-primary-step-1);
+}
+.u-bg-primary--1 {
+  background-color: var(--color-primary-step--1);
+}
+.u-bg-primary--2 {
+  background-color: var(--color-primary-step--2);
+}
+.u-bg-primary--3 {
+  background-color: var(--color-primary-step--3);
+}
+.u-bg-primary--4 {
+  background-color: var(--color-primary-step--4);
+}
+.u-bg-primary--5 {
+  background-color: var(--color-primary-step--5);
+}
+.u-bg-primary--6 {
+  background-color: var(--color-primary-step--6);
+}
+.u-bg-primary--7 {
+  background-color: var(--color-primary-step--7);
+}
+.u-bg-primary--8 {
+  background-color: var(--color-primary-step--8);
+}
+
+/* Secondary background classes */
+.u-bg-secondary {
+  background-color: var(--color-secondary);
+}
+.u-bg-secondary-8 {
+  background-color: var(--color-secondary-step-8);
+}
+.u-bg-secondary-7 {
+  background-color: var(--color-secondary-step-7);
+}
+.u-bg-secondary-6 {
+  background-color: var(--color-secondary-step-6);
+}
+.u-bg-secondary-5 {
+  background-color: var(--color-secondary-step-5);
+}
+.u-bg-secondary-4 {
+  background-color: var(--color-secondary-step-4);
+}
+.u-bg-secondary-3 {
+  background-color: var(--color-secondary-step-3);
+}
+.u-bg-secondary-2 {
+  background-color: var(--color-secondary-step-2);
+}
+.u-bg-secondary-1 {
+  background-color: var(--color-secondary-step-1);
+}
+.u-bg-secondary--1 {
+  background-color: var(--color-secondary-step--1);
+}
+.u-bg-secondary--2 {
+  background-color: var(--color-secondary-step--2);
+}
+.u-bg-secondary--3 {
+  background-color: var(--color-secondary-step--3);
+}
+.u-bg-secondary--4 {
+  background-color: var(--color-secondary-step--4);
+}
+.u-bg-secondary--5 {
+  background-color: var(--color-secondary-step--5);
+}
+.u-bg-secondary--6 {
+  background-color: var(--color-secondary-step--6);
+}
+.u-bg-secondary--7 {
+  background-color: var(--color-secondary-step--7);
+}
+.u-bg-secondary--8 {
+  background-color: var(--color-secondary-step--8);
+}
+
+/** ALIGNMENT **/
+.u-space-between {
+  justify-content: space-between;
+}
+
+.u-justify-center {
+  justify-content: center;
+}
+
+.u-align-center {
+  align-items: center;
+}
+
+.u-align-self-end {
+  align-self: flex-end;
+}
+
+/** SPACING **/
+.u-inline-size-xl {
+  inline-size: var(--space-xl);
+}
+
+.u-gap-xxs {
+  gap: var(--space-xxs);
+}
+.u-gap-xs {
+  gap: var(--space-xs);
+}
+.u-gap-s {
+  gap: var(--space-s);
+}
+.u-gap-m {
+  gap: var(--space-m);
+}
+.u-gap-l {
+  gap: var(--space-l);
+}
+.u-gap-xl {
+  gap: var(--space-xl);
+}
+.u-gap-xxl {
+  gap: var(--space-xxl);
+}
+
+.u-padding-block-xxs {
+  padding-block: var(--space-xxs);
+}
+.u-padding-block-xs {
+  padding-block: var(--space-xs);
+}
+.u-padding-block-s {
+  padding-block: var(--space-s);
+}
+.u-padding-block-m {
+  padding-block: var(--space-m);
+}
+.u-padding-block-m-l {
+  padding-block: var(--space-m-l);
+}
+.u-padding-block-l {
+  padding-block: var(--space-l);
+}
+.u-padding-block-xl {
+  padding-block: var(--space-xl);
+}
+
+.u-padding-inline-xxs {
+  padding-inline: var(--space-xxs);
+}
+.u-padding-inline-xs {
+  padding-inline: var(--space-xs);
+}
+.u-padding-inline-s {
+  padding-inline: var(--space-s);
+}
+.u-padding-inline-m {
+  padding-inline: var(--space-m);
+}
+.u-padding-inline-m-l {
+  padding-inline: var(--space-m-l);
+}
+.u-padding-inline-l {
+  padding-inline: var(--space-l);
+}
+
+.u-margin-top-xs {
+  margin-block-start: var(--space-xs);
+}
+.u-margin-top-s {
+  margin-block-start: var(--space-s);
+}
+.u-margin-top-m {
+  margin-block-start: var(--space-m);
+}
+.u-margin-top-l {
+  margin-block-start: var(--space-l);
+}
+.u-margin-top-xl {
+  margin-block-start: var(--space-xl);
+}
+.u-margin-top-xxl {
+  margin-block-start: var(--space-xxl);
+}
+
+.u-margin-bottom-s {
+  margin-block-end: var(--space-s);
+}
+.u-margin-bottom-m {
+  margin-block-end: var(--space-m);
+}
+.u-margin-bottom-l {
+  margin-block-end: var(--space-l);
+}
+.u-margin-bottom-xl {
+  margin-block-end: var(--space-xl);
+}
+.u-margin-bottom-xxl {
+  margin-block-end: var(--space-xxl);
+}
+
+.u-margin-block-s {
+  margin-block: var(--space-s);
+}
+.u-margin-block-m {
+  margin-block: var(--space-m);
+}
+.u-margin-block-l {
+  margin-block: var(--space-l);
+}
+.u-margin-block-xl {
+  margin-block: var(--space-xl);
+}
+.u-margin-block-xxl {
+  margin-block: var(--space-xxl);
+}
+
+.u-table-wrapper {
+  overflow-x: auto;
+}
+.u-table-wrapper table {
+  width: 100%;
+}
+
+/** BORDER **/
+.u-border-radius-50pct {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.u-border-light {
+  border: 1px solid var(--color-primary-step-6);
+}
+
+.u-border-round {
+  border-radius: 1rem;
+}
+
+/* LISTS */
+ul.outside > li {
+  list-style-position: outside;
+}
+ul.no-bullets > li {
+  list-style-type: none;
+}
